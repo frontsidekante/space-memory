@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  /* background-color: green; */
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* border-style: solid; */
+  /* border-color: green; */
+
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-style: solid; */
+  /* border-color: black; */
+
+}
+
+.image {
+  background-size: cover;
+
+  height: 150px;  
+  width: 150px;
+  border-radius: 10%;
+}
+
+
+
