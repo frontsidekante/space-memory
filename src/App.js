@@ -10,6 +10,8 @@ function App() {
 
   const [data, setData] = React.useState(curiosity);
 
+  console.log(setData);
+
   const randomNumArr = [];
   for(let step = 0; step < 8; step++) {
     randomNumArr.push(Math.floor(Math.random() * 800));
